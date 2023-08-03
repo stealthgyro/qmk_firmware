@@ -20,7 +20,7 @@ _qmk_install() {
     brew install qmk/qmk/qmk
 
     brew link --force avr-gcc@8
-    brew link --force arm-gcc-bin@8
+    brew link --force arm-gcc-bin@10
 
     python3 -m pip install -r $QMK_FIRMWARE_DIR/requirements.txt
 }
